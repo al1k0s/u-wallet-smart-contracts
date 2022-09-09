@@ -6,3 +6,8 @@ This repository features a FundsDistributor contract made to distribute funds in
 - User would then use the `withdraw(amount)` function to loan the money.
 - After using the money, to give it back, user would use the `repay(amount)` function to repay the loan.
 - After the specific time period in number of blocks(67280), the user will be able to loan again a bigger amount of money.
+
+DemoERC20 contract exists for the testing purposes.
+
+The contracs are deployed to the Görli testnet and the sources and metadata are published to the IPFS. 
+The corresponding files could be found in the `ipfs` folder.
