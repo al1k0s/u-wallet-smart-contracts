@@ -1,7 +1,6 @@
-# u-wallet-smart-contracts
-UWallet Smart Contracts
+# UWallet Smart Contracts
 
-This repository features a FundDistributor contract made to distribute funds in a permissioned way.
+This repository features a FundsDistributor contract made to distribute funds in a permissioned way.
 - The admin would add the user`s address to the contract while topping it with some ETH to refund the transaction costs.
 - User would observe the UserHasBeenAdded event.
 - User would then use the `withdraw(amount)` function to loan the money.
